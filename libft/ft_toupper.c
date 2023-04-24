@@ -22,10 +22,4 @@ int ft_toupper (int c)
 	
 return (0);
 }
-/*int main()
-{
-    int d;
-	d = 'u';
-    printf("%c", ft_toupper(d));
-	return (0);   
-}*/
+
