@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: alarjona <alarjona@student.42malaga.com    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/27 17:13:44 by alarjona          #+#    #+#             */
-/*   Updated: 2023/03/27 17:14:20 by alarjona         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <stdio.h>
 
 int	whitespaces(char *str, int *ptr_i)
@@ -48,8 +36,4 @@ int	ft_atoi(char *str)
 	result *= sign;
 	return (result);
 }
-// int main(void)
-// {
-// 	char *s = "   ---+--+01234506789ab567";
-// 	printf("%d", ft_atoi(s));
-// }
+
