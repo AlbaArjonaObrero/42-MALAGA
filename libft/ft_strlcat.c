@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_strlcat.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: alarjona <alarjona@student.42malaga.com>   +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/03/27 17:37:24 by alarjona          #+#    #+#             */
-/*   Updated: 2023/03/27 17:37:26 by alarjona         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include <stdio.h>
 
 int	ft_strlen(char *str)
@@ -47,10 +35,3 @@ dest[j] = '\0';
 	return (dlen + slen);
 }
 
-// int main (void)
-// {
-// 	char src[] = "Born to code";
-// 	char dest[] = "1337 42";
-// 	printf ("%i \n", ft_strlcat (dest, src, 7));
-// 	printf ("%s \n", dest);
-// }
