@@ -22,10 +22,4 @@ int ft_tolower (int c)
 	
 return (0);
 }
-/*int main()
-{
-    int d;
-	d = 'D';
-    printf("%c", ft_tolower(d));
-	return (0);   
-}*/
+
