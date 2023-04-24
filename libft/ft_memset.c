@@ -12,11 +12,7 @@
 
  #include <string.h>
  #include <stdio.h>
-//str va a  ser la cadena original que se va a recorrer, y s 
-//se iguala a s que es el puntero vacío que se va a rellenar. 
-//Entonces lo que pasa es q la original esta igualda al puntero, se recorre la original y mientras no 
-//supere el nºde bytes que hemos puesto, se iguala a c, que es el reemplazo q queremos. 
-//igualar la original al puntero nos permite hacer estos cambios en la original, segun el n que demos
+
 void	*ft_memset(void *s, int c, size_t n)
 {
 	size_t	i;
@@ -31,11 +27,5 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
-/*int main ()
-{
-	char s[10] = "Hola";
-	int c = 'a';
-	printf("%s", ft_memset(s,c, 2));
-}*/
 
 
